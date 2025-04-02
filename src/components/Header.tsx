@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="logo">
-          <h1>JDoe</h1>
+          <h1>Sanskar Singh</h1>
         </div>
         
         <div className="menu-icon" onClick={toggleMenu}>
@@ -27,7 +27,7 @@ const Header = () => {
             <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About</a></li>
             <li><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></li>
             <li><a href="#skills" onClick={() => setIsMenuOpen(false)}>Skills</a></li>
-            <li><a href="#Certificates" onClick={() => setIsMenuOpen(false)}>Certificates</a></li>
+            <li><a href="#certificates" onClick={() => setIsMenuOpen(false)}>Certificates</a></li>
           </ul>
         </nav>
       </div>
