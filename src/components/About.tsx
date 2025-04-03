@@ -11,8 +11,7 @@ const About = () => {
             <p>
               I'm a passionate full-stack developer with expertise in building 
               responsive and user-friendly web applications. With a background in 
-              computer science and several years of industry experience, I enjoy 
-              solving complex problems and creating elegant solutions.
+              computer science (Artificial Intelligence and Machine Learning), I enjoy solving complex problems and creating elegant solutions.
             </p>
             <p>
               My journey in web development started during college and has evolved 

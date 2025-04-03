@@ -11,7 +11,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Watsapp Chat Analyzer',
+      title: 'Whatsapp Chat Analyzer',
       description: 'A WhatsApp Chat Analyzer processes and visualizes chat data to provide insights on message frequency, sentiment, key topics, and user engagement patterns.',
       technologies: ['Python', "pandas", 'Matplotlib', 'WordCloud', 'Streamlit','numpy',"Scikit-learn"],
       githubUrl: 'https://github.com/Sanskar2301/whatsapp-chat-analysis'
