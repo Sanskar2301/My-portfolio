@@ -1,0 +1,137 @@
+.experience {
+  padding: 80px 0;
+  background-color: #1a1a1a;
+}
+
+.experience .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #646cff, #535bf2);
+  border-radius: 2px;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-card {
+  background-color: #232323;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  min-height: 180px;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(100, 108, 255, 0.15);
+}
+
+.experience-role {
+  font-size: 1.2rem;
+  color: #646cff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.company {
+  font-weight: 500;
+  color: #fff;
+}
+
+.duration {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.experience-description {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.98rem;
+  margin-top: 0.7rem;
+  transition: color 0.3s;
+}
+
+.experience-link:hover {
+  color: #535bf2;
+}
+
+.experience-link svg {
+  transition: transform 0.3s;
+}
+
+.experience-link:hover svg {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    max-width: 100%;
+  }
+  .experience-card {
+    padding: 1.2rem 1rem;
+    min-height: 140px;
+  }
+  .experience-role {
+    font-size: 1.05rem;
+  }
+  .experience-description {
+    font-size: 0.95rem;
+  }
+} 

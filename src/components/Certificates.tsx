@@ -4,21 +4,17 @@ const Certificates = () => {
   const certificates = [
     {
       id: 1,
-      title:"Infosys java certification completion",
-      issuer: 'Infosys'
+      title:"Certificate of participation in AKTU AI TECH Hackathon 2025",
+      issuer: 'HCL & GUVI'
     },
+   
     {
       id: 2,
-      title:"Infosys Ethical Hacking certification",
-      issuer: 'Infosys'
-    },
-    {
-      id: 3,
       title:"Deep Learning Application for Smart Cities",
       issuer: 'NIT RourKela'
     },
     {
-      id: 4,
+      id: 3,
       title:" Madras Python Certificate",
       issuer: 'Guvi'
     }
