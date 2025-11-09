@@ -4,10 +4,10 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with user authentication, product management, and payment integration.',
-      technologies: ['Python', 'Django', 'sq-Lite', "Html","Css","javascript","Bootstrap"],
-      githubUrl: 'https://github.com/Sanskar2301/E-Commerce'
+      title: ' Defect Part Identification System',
+      description: 'An AI-powered web application for automated defect detection in industrial parts using computer vision and deep learning techniques.',
+      technologies: ['Python', 'streamlit', "openCV", 'pytorch',"Scikit-image"],
+      githubUrl: 'https://github.com/Abhi110704/Final-Project-Defect-Analyzer'
     },
     {
       id: 2,
@@ -18,10 +18,10 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Stock market predicition',
-      description: 'A Stock Market Prediction tool uses historical data, statistical models, and machine learning algorithms to forecast future stock prices and trends, helping investors make informed decisions',
-      technologies: ['Python', "pandas", "Matplotlib", "Tensorflow", "streamlit","numpy","Scikit-learn"],
-      githubUrl: 'https://github.com/Sanskar2301/Stock-Market-Prediction'
+      title: 'NUDRRS - National Unified Disaster Response & Relief System',
+      description: 'NUDRRS revolutionizes India disaster response by combining crowdsourced reporting, AI verification, smart resource allocation, and real-time analytics to save lives at scale.',
+      technologies: ['Django', "React", "MongoDb", "Google gemini-API", "NLP","Rest-API"],
+      githubUrl: 'https://github.com/AnkitSingh-ai/NUDRRS'
     }
   ];
 

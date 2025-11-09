@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 const Skills = () => {
   const skills = [
     "HTML5", "CSS3", "JavaScript",  "React", "python", 
-    "Django",  "Git/GitHub",
+    "Django",  "Git/GitHub",'MAchine Learning',"AI","Data Science",
     "REST API","Networking","SQl","Operating-System","C","OOPS","C++"
   ];
 

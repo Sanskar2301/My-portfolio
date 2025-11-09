@@ -24,6 +24,14 @@ const experiences = [
     duration: ' april 2025-may 2025',
     description: 'developed a website for a startup company',
     url: 'https://chunarfarms.in/'
+  },
+   {
+    id: 4,
+    role: 'Trainee',
+    company: 'Gradious',
+    duration: ' august 2025-november 2025',
+    description: 'Machie learning and data science trainee',
+    url: ''
   }
 ];
 

@@ -37,7 +37,7 @@ const About = () => {
               </div>
               <div className="info-item">
                 <span className="info-label">Resume:</span>
-                <a className="info-value resume-link" href="https://drive.google.com/file/d/1y9E23sT43ojgVhSRBF6yAKNX0O1EuaNV/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">View Resume</a>
+                <a className="info-value resume-link" href="https://drive.google.com/file/d/1Cxzo0WDncmU_EqnKYtXM08MZzXmDjh2t/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">View Resume</a>
               </div>
             </div>
           </div>
